@@ -1,0 +1,35 @@
+// 查询用户组件
+ .user_name_list {
+    width: 100%;
+    height: auto;
+    // margin-top: 20px;
+    // margin-left: 10%;
+    .user_name_list_case {
+      margin-top: 20px;
+    margin-left: 10px;
+      width: 98%;
+      height: 2.7rem;
+      // border: 1px solid pink;
+      .user_name_list_case_top {
+        width: 95%;
+        display: flex;
+        margin-left: 10px;
+        justify-content: space-between;
+      }
+      .user_name_list_case_bottom {
+        display: flex;
+        justify-content: space-between;
+          // margin-top: 20px;
+              margin-left: 10px;
+              width: 95%;
+          .register_buttoon {
+            // font-size: 20px; 
+            margin-left: 1.7rem;
+          }
+          // .case_bottom_data {
+          //   height: 40px;
+          // }
+      }
+    }
+    
+  }
